@@ -1,0 +1,7 @@
+services:
+  python:
+    image: python:3.10.13-slim-bookworm
+    volumes:
+      - ./mutb_addscraping:/home
+    tty: True
+    stdin_open: True

@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  demo:
+    container_name: static-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
