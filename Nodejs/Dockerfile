@@ -1,5 +1,5 @@
 FROM node:16-alpine
-LABEL maintainer="Hoang Bui <mynamebvh@gmail.com>"
+LABEL maintainer="Pierce Le <hale0087@uni.sydney.edu.au>"
 
 WORKDIR /app/backend
 
