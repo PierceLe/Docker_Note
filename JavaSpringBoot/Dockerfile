@@ -1,5 +1,5 @@
 FROM openjdk:11-jdk-slim-buster as builder
-LABEL maintainer="Hoang Bui <mynamebvh@gmail.com>"
+LABEL maintainer="Pierce Le <hale0087@uni.sydney.edu.au>"
 
 WORKDIR /build
 
